@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleCONTATO.css">
+    <title>CONTATO</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="projetos.html">PROJETOS</a></li>
+                    <li><a href="contato.html">CONTATE-ME</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="Titulo">
+        <h1>Mande-me um Email</h1>
+    </div>
+    <br><br>
+    <form action="https://formsubmit.co/thiagovmotter@gmail.com" method="POST">
+        <div class="Principal">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500//obrigado.html">
+            <div class="name">                
+            <label for="name">Nome: </label>
+            <input type="text" name="name" id="name" required>
+            </div>
+            <br><br>
+
+            <div class="email">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+            </div>
+            <br><br>
+            
+            <div class="mensagem">
+            <label for="message">Mensagem: </label>
+            <textarea name="message" id="message"></textarea>
+            </div>
+            <br><br>
+
+            <button class="btn">
+                <span>Enviar</span>
+                <span></span>
+            </button>
+        </div>
+    </form>
+</body>
+</html>
