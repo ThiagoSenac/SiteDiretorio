@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1d2d44;
+}
+
+header {
+    width: 100%;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+.menu li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #e0e1dd;
+    text-transform: uppercase;
+}
+.Titulo{
+    margin-top: 10px;
+    position: absolute;
+    height: 45px;
+    left: 37%; 
+    right: 37%;
+    box-sizing: border-box;
+    border: 1px solid #3e5c76;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #3e5c76;
+}
+.Titulo h1{
+    word-spacing: 7px;
+    font-size: 28px;
+    margin-top: 7px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+.Principal{
+    position: absolute;
+    top: 20%;
+    height: 78%;
+    left: 30%; 
+    right: 30%;
+    box-sizing: border-box;
+    border: 1px solid #3e5c76;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #3e5c76;
+}
+form{
+    font-family: Arial;
+    color: white;
+    text-transform: uppercase;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea{
+    outline: unset;
+    padding: 10px;
+    border-radius: 25px;
+}
+.name{
+    width: 400px;
+    height: 100px;
+}
+.email{
+    margin-top: -40px;
+    width: 400px;
+    height: 100px;
+}
+.mensagem{
+    margin-top: -40px;
+    width: 400px;
+    height: 100px;
+}
+textarea{
+    width: 400px;
+    height: 700px;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #ffffff40;
+    box-shadow: 0 0 0 2px #ffffff20;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .btn span:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #2196F3;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .btn span:first-child {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 0 5px #2195f360;
+    color: #ffffff;
+  }
+  
+  .btn:active {
+    scale: 0.95;
+  }
+  
+  .btn:hover span:last-child {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+  }

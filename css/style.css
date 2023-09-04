@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1d2d44;
+}
+
+header {
+    width: 100%;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+.menu li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #e0e1dd;
+    text-transform: uppercase;
+}
+.principal{
+    display: flex;
+    margin-top: 60px;
+    height: 350px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    box-sizing: border-box;
+    background-color: #e0e1dd;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.principal h1{
+    padding: 5px;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+svg{
+    margin-left: 400px;
+    display: inline-block;
+}
+.instagram{
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 181px;
+    height: 30px;
+    width: 30px;
+}
+.github{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 67px;
+    height: 30px;
+    width: 30px;
+}
+.linkedin{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 124px;
+    height: 30px;
+    width: 30px;
+}
+a{
+    color: black;
+}
+a :hover{
+    color: #748cab;
+}
+.download{
+    display: inline-block;
+    margin-top: 60px;
+    height: 70px;
+    margin-left: 40%;
+    width: 300PX;
+    box-sizing: border-box;
+    background-color: #e0e1dd;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.download h1{
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.download svg{
+    float: right;
+    margin-right: 40px;
+    margin-top: -28px;
+}

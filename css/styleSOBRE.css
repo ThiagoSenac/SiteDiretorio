@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1d2d44;
+}
+
+header {
+    width: 100%;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+.menu li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #e0e1dd;
+    text-transform: uppercase;
+}
+.principal{
+    position: absolute;
+    margin-top: 10px;
+    height: 80%;
+    left: 30%; 
+    right: 30%;
+    box-sizing: border-box;
+    background-color: #1d2d44;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+.desc{
+    border-radius: 20px;
+    background-color: #e0e1dd;
+    padding: 4px;
+    margin-left: 10px;
+    margin: 20px;
+    margin-top: 30px;
+}
+.interesses{
+    width: 150px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #e0e1dd;
+    margin-left: 140px;
+    float: left;
+}
+.interesses h2, .ulinteresses{
+    margin-left: 30px;
+}
+.hobbies{
+    width: 150px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #e0e1dd;
+    margin-left: 80px;
+    float: left;
+}
+.hobbies h2, .ulhobbies{
+    margin-left: 30px;
+}
+.card {
+    margin-left: -210px;
+    margin-top: 40px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .body {
+    padding: 20px;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    width: 120px;
+    font-size: 16px;
+  }
+  
+  .skill-level {
+    width: 160px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  
+  .skill-percent {
+    background-color: #333;
+    height: 100%;
+  }
+  
+  .skill-percent-number {
+    margin-left: 20px;
+    font-size: 16px;
+  }
